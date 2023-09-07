@@ -8,21 +8,18 @@ body, h1, h2, h3, p {
     src:url(Sportypo-Reguler-Demo.ttf)format(TrueType);
 }
 .fixed-header {
-    font-family: Sportypo;
-    font-size: 50%;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: rgba(255, 0, 255, 0.336);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(206, 0, 206);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
     z-index: 999; /* Ensure the header appears above other content */
-    transition: all 0.3s ease-in-out;
 }
 
 .logo {
@@ -102,7 +99,7 @@ section {
     margin: 10px auto;
 }
 .coontact{
-    backdrop-filter: blur(10px);
+     text-align: center;
     background-color: #3800a018;
 
 }
@@ -112,12 +109,11 @@ section {
     border: 1px solid #ffffff;
     padding: 10px;
     margin: 10px 0;
-    background-color: #03178d2a;
+    background-color: #00293052;
     backdrop-filter: blur(10px);
 }
 /* News article styles */
 .news-article {
-    backdrop-filter: blur(10px);
     background-color: #302e2e00;
     margin-bottom: 20px;
 }
@@ -126,7 +122,6 @@ section {
 footer {
     background-color: #00000000;
     color: #ffffff;
-    backdrop-filter: blur(10px);
     text-align: center;
     padding: 10px;
 }
@@ -148,7 +143,7 @@ footer {
     width: calc(27% - 27px); /* Adjust the width as needed */
     margin-bottom: 100px;
     text-align: center;
-    background-color: #8d00a059;
+    background-color: #00293052;
     padding: 20px;
     border: 2px solid #5c5c5c;
     border-radius: 5px;
@@ -180,7 +175,6 @@ p {
     flex-direction: column;
     justify-content: center;
     background-color: #00000000;
-    backdrop-filter: blur(10px);
     align-items: flex-start;
     height: 200vh;
   }
@@ -190,7 +184,6 @@ p {
     letter-spacing: -.01em;
     line-height: 100%;
     margin: 0;
-    
     width: 100%;
     color: rgb(182, 182, 182, 0.2);
     background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
@@ -198,10 +191,7 @@ p {
     background-clip: text;
     background-size: 0%;
     transition: background-size cubic-bezier(.1,.5,.5,1) 0.5s;
-    
-  
     border-bottom: 1px solid #2F2B28;
-    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -238,21 +228,33 @@ p {
     src: url(C:\Users\sidha\Desktop\GREEDY\Sportypo-Reguler-Demo.ttf);
   }
 header h1 {
-    padding: 10px;
+    padding: 1px;
     background-color: #302e2e;
-    border-radius: 2px;
-    backdrop-filter: blur(10px);
     background-color: #302e2e00;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     text-align: center;
-    display: grid; /* Use grid */
-    place-items: center; /* Center both horizontally and vertically */
-    margin-left: 40%;
-    margin-right:40%;
+    display:inline; 
     font-family: Sportypo;
-    color:white;
+    background: -webkit-linear-gradient(#00ffb357, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    backdrop-filter: blur(10px);
+    font-size: 30;
 
 }
+header h2{
+    padding:2px;
+    text-align:left;
+    margin-left: 1%;
+    margin-right:30%;
+}
+header p{
+    padding:2px;
+    text-align:left;
+    margin-left: 1%;
+    margin-right:30%;
+}
+
 
 /* Apply the same effect to other sections if desired */
 section {
@@ -281,20 +283,34 @@ b {
     transition: all .2s;
     position: relative;
     max-width: fit-content;
-    display: block;
+    display: inline-block;
     margin: 0 auto;
+    color:white;
 }
 
 b:hover {
     text-decoration: none;
     transform: translate(-5px,-5px);
 }
+k {
+    z-index: 1;
+    transition: all .2s;
+    position: relative;
+    max-width: auto;
+    display: inline-block;
+    margin: 0 auto;
+    color:white;
+}
+
+k:hover {
+    text-decoration: none;
+    transform: translate(-5px,-5px);
+}
+
 
 .button {
     display: block;
     z-index: 0;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
     color: #000;
     text-align: center;
     background-color: rgba(255,255,255,.3);
