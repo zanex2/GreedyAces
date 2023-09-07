@@ -69,7 +69,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-left: 16em;
 }
 
 nav a {
@@ -376,4 +376,7 @@ k:hover {
         transform: translateY(-100%);
         opacity: 0;
     }
+}
+Z{
+    margin-left: 30.6em;
 }
