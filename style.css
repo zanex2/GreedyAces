@@ -106,11 +106,8 @@ section {
 
 /* Match styles */
 .match {
-    border: 1px solid #ffffff;
     padding: 10px;
     margin: 10px 0;
-    background-color: #00293052;
-    backdrop-filter: blur(10px);
 }
 /* News article styles */
 .news-article {
