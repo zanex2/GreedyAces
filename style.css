@@ -69,12 +69,14 @@ body {
 
 /* Navigation styles */
 nav ul {
+    display:inline-block;
+    margin-left: -1em;
+    margin-top: -1em;
     list-style-type:none;
     font-family: Monte;
     font-size: 1em;
     font-weight: bold;
-    font-style: italic;
-    font-stretch:ultra-expanded;
+    text-indent: 0.4em;
 }
 
 
@@ -253,12 +255,9 @@ header p{
 h5{
     font-family: Monte;
     font-size: xx-large;
-    display: flex;
-    justify-content: center;
-
     padding:0.5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     background-color: rgba(0, 0, 0, 0.459);
     backdrop-filter: blur(10px);
 }
