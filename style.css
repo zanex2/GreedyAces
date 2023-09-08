@@ -14,7 +14,7 @@ body, h1, h2, h3, p,header h1 {
 }
 .fixed-header {
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(131, 0, 163);
+    -webkit-text-stroke-color: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -154,9 +154,9 @@ footer {
     background-color: rgba(0, 0, 0, 0.459);
     padding: 2%;
     backdrop-filter: blur(10px);
-    border: 2px solid #5c5c5c;
-    border-radius: 1px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid #72005f69;
+    border-radius: 0.1em;
+    box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.2);
 }
 
 /* Media query for smaller screens */
@@ -237,9 +237,26 @@ header h1 {
     display:inline-block; 
     font-family: Monte;
     font-style: italic;
-    font-size: 30;
+    color: #ffffff00;
+      animation: flicker 1.5s infinite alternate;   
 
 }
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #ff00dd,
+        0 0 40px rgb(255, 0, 179),
+        0 0 80px rgb(255, 0, 212),
+        0 0 90px rgb(255, 0, 255),
+        0 0 100px rgb(255, 0, 242),
+        0 0 150px rgb(255, 0, 221);
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+  }
 header h2{
     padding:2px;
     text-align:left;
