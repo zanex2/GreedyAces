@@ -262,6 +262,7 @@ header h1 {
     }
   }
 header h2{
+
     padding:2px;
     text-align:left;
     margin-left: 1%;
@@ -406,6 +407,9 @@ k:hover {
 }
 Z{
     margin-left: 30.6em;
+}
+h2{
+    margin-bottom: 1%;
 }
 /* about */
 h6{
