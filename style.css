@@ -129,6 +129,10 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
 }
 
 /* Responsive design for smaller screens */
@@ -402,4 +406,25 @@ k:hover {
 }
 Z{
     margin-left: 30.6em;
+}
+/* about */
+h6{
+    color: white;
+    font-family: Monte;
+    font-size: 2em;
+    display: inline-block;
+    margin-top:0%;
+    margin-left:46%;
+    margin-bottom:1%;
+    margin-right:41%;
+    
+}
+h7{
+    color: white;
+font-family: Monte;
+font-size: 1.5em;
+font-weight: bold;
+display:inline-block;
+margin-top: 1%;
+margin-bottom: 1%;
 }
