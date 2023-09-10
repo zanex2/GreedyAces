@@ -19,7 +19,7 @@ body, h1, h2, h3, p,header h1 {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.329);
+    background-color: rgba(0, 0, 0, 0.699);
     backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
@@ -90,7 +90,7 @@ nav a {
 section {
     padding: 20px;
     margin: 20px;
-    border-radius: 5px;
+    border-radius: 1%;
     backdrop-filter: blur(10px);
     background-color: #0063c08c;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.61);
@@ -103,7 +103,7 @@ section {
 
 .player img {
     max-width: 150px;
-    border-radius: 50%;
+    border-radius:5%;
     margin: 10px auto;
 }
 .coontact{
@@ -143,23 +143,20 @@ footer {
 }
 /* Add this CSS to your style.css file */
 .players-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    margin-top: 1%;
+    display:flex;
+    justify-content: center;
+    
 }
 
 .player {
-    width: 15em;
-    margin-top:2em;
-    margin-bottom:2em;
-    margin-left:2em;
-    margin-right:2em;
     text-align: center;
+    border-radius:5%;
+   width: 18em;
     background-color: rgba(0, 0, 0, 0.459);
-    padding: 2%;
+    padding: 1%;
+    margin:auto;
     backdrop-filter: blur(10px);
-    border: 2px solid #72005f69;
-    border-radius: 0.1em;
     box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.2);
 }
 
@@ -268,11 +265,9 @@ header h2{
     margin-left: 1%;
     margin-right:30%;
 }
-header p{
+ p{
     padding:2px;
-    text-align:left;
-    margin-left: 1%;
-    margin-right:30%;
+    text-align:center;
 }
 h5{
     font-family: Monte;
@@ -406,21 +401,18 @@ k:hover {
     }
 }
 Z{
-    margin-left: 30.6em;
+    text-align:center;
 }
 h2{
-    margin-bottom: 1%;
+ text-align: left;
 }
 /* about */
 h6{
     color: white;
     font-family: Monte;
     font-size: 2em;
-    display: inline-block;
-    margin-top:0%;
-    margin-left:46%;
-    margin-bottom:1%;
-    margin-right:41%;
+text-align: center;
+margin:auto;
     
 }
 h7{
@@ -428,7 +420,8 @@ h7{
 font-family: Monte;
 font-size: 1.5em;
 font-weight: bold;
-display:inline-block;
-margin-top: 1%;
-margin-bottom: 1%;
+}
+section p{
+    text-align: left;
+    font-size: 200%%;
 }
